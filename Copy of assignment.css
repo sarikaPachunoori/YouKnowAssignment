@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    min-height: 100vh;
+    background-color: #fc889a;
+    padding: 10px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.icon-name-cont {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon-cont {
+    height: 120px;
+    width: 120px;
+    border-color: #191970;
+    border-style: solid;
+    text-align: center;
+    border-width: 6px;
+
+    border-radius: 60%;
+}
+
+.icon {
+    color: #191970;
+    font-size: 75px;
+}
+
+.icon-name {
+    color: #191970;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+.tot-matter-cont {
+    display: flex;
+    flex-direction: row;
+    height: 28vh;
+    width: 100%;
+    align-items: center;
+    border-color: #191970;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
+}
+
+.matter-cont {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px;
+    border-color: transparent;
+    border-style: solid;
+    align-items: center;
+}
+
+
+.heading-cont {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.heading {
+    color: #191970;
+    font-size: 45px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.sub-heading {
+    color: #191970;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.vert-line-cont {
+    border-left: 4px solid #191970;
+    height: 28vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.info-cont {
+    display: block;
+    color: #191970;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.horizontal-line {
+    color: #191970;
+    border-width: 4px;
+    border-style: solid;
+    border-top-style: none;
+    width: 100%;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    min-height: 20vh;
+}
+
+
+.year-matter-cont {
+    display: flex;
+    flex-direction: column;
+    height: 28vh;
+    width: 100%;
+    align-items: center;
+    border: none;
+    padding: 10px;
+}
+
+.year-info-cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.year-cont {
+    width: 30%;
+}
+
+.direc-list {
+    width: 70%;
+}
+
+.para {
+    color: #191970;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.para-bold {
+    font-weight: bold;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.skills-matter-cont {
+    display: flex;
+    flex-direction: row;
+    height: 28vh;
+    width: 100%;
+    align-items: center;
+    border-color: #191970;
+    border-top: #191970;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
+}
+
+.skills-frst-cont {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px;
+}
+
+.skill-dots-cont {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dots-cont {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.dots {
+    font-size: 18px;
+    color: #191970;
+    margin: 3px;
+}
+
+.skills-scnd-cont {
+    width: 45%;
+}
+
+.interests-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.diff-icons-cont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: row;
+    border-bottom: 4px solid #191970;
+}
+
+.icon-with-name {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    padding: 0px;
+}
+
+.icon-int {
+    color: #191970;
+    font-size: 85px;
+    padding-top: 0px;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
